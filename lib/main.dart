@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterwhats_app/whatsapp_home.dart';
+import 'package:flutterwhats_app/pages/welcome_screen.dart';
 
 void main() => runApp(new MyApp());
 
@@ -12,7 +12,8 @@ class MyApp extends StatelessWidget {
         primaryColor: new Color(0xff075e54),
         accentColor: new Color(0xff25d366),
       ),
-      home: new WhatsAppHome(),
+      home: new WelcomeScreen(),
+      //"/welcome":(context)=>new WhatsAppHome(),
     );
   }
 }
